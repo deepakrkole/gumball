@@ -8,7 +8,7 @@ exports.index = function(req, res) {
 	var client = new Client();
 
 	// direct way
-	client.get("http://arpit177.cfapps.io/gumballs.json", function(data,
+	client.get("http://deepak-grails-gumball-v2.cfapps.io/gumballs.json", function(data,
 			response) {
 
 		var ar = {};
